@@ -1,4 +1,6 @@
+# Run Jenkins as Docker 
 $ docker run --restart always --name jenkins-docker -p 8080:8080 jenkins/jenkins:lts
+```
 Unable to find image 'jenkins/jenkins:lts' locally
 lts: Pulling from jenkins/jenkins
 8457fd5474e7: Pull complete 
@@ -114,3 +116,4 @@ java.lang.InterruptedException
 Caused: hudson.util.HudsonFailedToLoad
         at hudson.WebAppMain$3.run(WebAppMain.java:264)
 2023-11-24 18:11:42.499+0000 [id=27]    INFO    o.e.j.s.handler.ContextHandler#doStop: Stopped w.@27b45ea{Jenkins v2.426.1,/,null,STOPPED}{/var/jenkins_home/war}
+```
